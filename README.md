@@ -23,7 +23,7 @@ uvicorn app:app --reload
 http://127.0.0.1:8000/docs
 ```
 
-4. Testar o /predict usando o arquivo de entrada exemplo:
+4. Testar o /predict usando o arquivo uma entrada contida em arquivo json:
 
 ```
 curl -X POST "http://127.0.0.1:8000/predict" \
