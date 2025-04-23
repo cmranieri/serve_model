@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import joblib
 import numpy as np
 
-# Load your model (students: make sure model.pkl exists!)
+# Load your model (make sure model.pkl exists!)
 model = joblib.load("model.pkl")
 
 # Create a FastAPI app instance
